@@ -1,0 +1,31 @@
+{
+  "name": "jsnodeseed",
+  "version": "1.0.0",
+  "description": "Simple basic node project to get up and running",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp unit-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonwilczak/jsNodeSeed.git"
+  },
+  "author": "Jason Wilczak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonwilczak/jsNodeSeed/issues"
+  },
+  "homepage": "https://github.com/jasonwilczak/jsNodeSeed#readme",
+  "devDependencies": {
+    "gulp":"^3.9.1",
+    "karma":"^0.13.22",
+    "karma-phantomjs-launcher": "*",
+    "phantomjs-prebuilt": "*",
+    "karma-jasmine": "*",
+    "karma-coverage": "*",
+    "jasmine-core": "*",
+    "jasmine-node": "*",
+    "jshint": "*",
+    "gulp-jshint": "*"
+  }
+}
